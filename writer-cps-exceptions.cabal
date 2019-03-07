@@ -1,5 +1,5 @@
 name:                writer-cps-exceptions
-version:             0.1.0.0
+version:             0.1.0.1
 synopsis:            Control.Monad.Catch instances for the stricter CPS WriterT and RWST
 description:         Control.Monad.Catch instances for the stricter WriterT and RWST from writer-cps-transformers.
 homepage:            https://github.com/minad/writer-cps-exceptions
@@ -19,7 +19,7 @@ library
   exposed-modules:     Control.Monad.Trans.RWS.CPS.Exceptions
                      , Control.Monad.Trans.Writer.CPS.Exceptions
   build-depends:       base < 6
-                     , writer-cps-transformers >= 0.1.1.2
+                     , writer-cps-transformers >= 0.1.1.2 && < 0.6
                      , transformers >= 0.4 && < 0.6
                      , exceptions >= 0.10 && < 0.12
   ghc-options:         -Wall
